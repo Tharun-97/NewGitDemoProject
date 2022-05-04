@@ -16,8 +16,7 @@ public class Student {
 		long phno = s.nextLong();
 		System.out.println("enter dept: ");
 		String dept = s.next();
-		System.out.println("enter gender: ");
-		char ch = s.next().charAt(0);
+		
 		
 		
 		System.out.println("Student ID: "+id);
@@ -25,7 +24,7 @@ public class Student {
 		System.out.println("Student Email: "+email);
 		System.out.println("Student Phoneno: "+phno);
 		System.out.println("Student Dept: "+dept);
-		System.out.println("Student Gender: "+ch);
+		
 			}
 
 }
