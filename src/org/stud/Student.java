@@ -18,8 +18,7 @@ public class Student {
 		String dept = s.next();
 		System.out.println("enter gender: ");
 		char ch = s.next().charAt(0);
-		System.out.println("enter city: ");
-		String city = s.next();
+		
 		
 		System.out.println("Student ID: "+id);
 		System.out.println("Student Name: "+name);
@@ -27,7 +26,6 @@ public class Student {
 		System.out.println("Student Phoneno: "+phno);
 		System.out.println("Student Dept: "+dept);
 		System.out.println("Student Gender: "+ch);
-		System.out.println("Student City: "+city);
-	}
+			}
 
 }
